@@ -1,6 +1,11 @@
 # eslint-plugin-rendering-performance
 
 Check your JS for usage of APIs known to cause rendering performance issues.
+Paul Irish put together [a collection](https://gist.github.com/paulirish/5d52fb081b3570c81e3a) of things that cause rendering performance issues.
+This is an attempt to take these and creating linting rules to alert you to their usage.
+
+It should be noted, this does not mean they should never be used.
+Look over where they are used, and try to find alternative solutions.
 
 ## Installation
 
