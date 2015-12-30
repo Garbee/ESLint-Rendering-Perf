@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-rendering-performance",
+  "version": "0.0.0",
+  "description": "Check your JS for usage of APIs known to cause rendering performance issues.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jonathan Garbee",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
