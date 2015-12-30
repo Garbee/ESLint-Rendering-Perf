@@ -11,7 +11,9 @@ var properties = [
   'scrollWidth',
   'scrollHeight',
   'scrollLeft',
-  'scrollTop'
+  'scrollTop',
+  'scrollX',
+  'scrollY'
 ];
 
 properties.forEach(function(item) {
@@ -19,7 +21,7 @@ properties.forEach(function(item) {
   invalid.code = 'var foo = elem.' + item;
   invalid.errors = [];
   invalid.errors.push({
-    message: 'Box metric properties are being called which are known to affect rendering performance. ' +
+    message: 'Scroll metric properties are being called which are known to affect rendering performance. ' +
     'Property called - ' + item,
     type: 'MemberExpression'
   });
